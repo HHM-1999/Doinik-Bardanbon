@@ -130,7 +130,7 @@ li a{
 
 .lead-head{
     position: absolute;
-    bottom: 1px;
+    bottom: 10px;
     padding: 5px 5px;
     background: linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.9) 100%) 0px 0px repeat scroll rgba(0, 0, 0, 0);
     width: 40%;
@@ -210,6 +210,9 @@ li a{
 } */
 .navbar-menu{
     padding: 0 0 0 0px;
+}
+.nav-link{
+    padding: 0.2rem 1rem;
 }
 .nav-tabs{
     border-radius: 0;
