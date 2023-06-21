@@ -298,7 +298,22 @@ li a{
     overflow: hidden;
     text-overflow: ellipsis;
 }
-
+.dcat-list-items h5{
+    font-size: 18px;
+    line-height: 24px;
+}
+.Title{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient:vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.Dcat-img-box{
+    overflow: hidden;
+    position: relative;
+    
+}
 /* Line break */
 .linebreak-1{
     border: 1px solid #f1f0f1;
@@ -316,8 +331,20 @@ li a{
     border-bottom: 1px solid #ccc;
     margin-bottom: 5px;
 }
+.line-break-5{
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+    border-top: 4px double #ccc;
+}
 .border_right{
     border-right: 1px solid #ccc;
+}
+.border_bottom{
+    border-bottom: 2px solid #f1f0f1;
+}
+/* Nogor jure section */
+.nogor-area{
+    margin: 50px;
 }
 
 
