@@ -232,6 +232,48 @@ li a{
 .nav-news a{
     font-size: 13px;
 }
+/*  Rajniti-section */
+.dheadtitle  span{
+    color: #900;
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background: #00A651;
+    margin-right: 8px;
+}
+.dheadtitle  h2{
+    color: #000;
+    font-weight: 400;
+    font-size: 23px;
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    padding: 10px 0;
+}
+.rajniti-main-news{
+    position: relative;
+    margin-bottom: 25px;
+}
+.rajniti-sub-head{
+    position: absolute;
+    bottom: 0;
+    min-height: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.9) 100%) 0px 0px repeat scroll rgba(0, 0, 0, 0);
+    color: #fff;
+    width: 100%;
+    padding: 10px 15px;
+}
+.rajniti-sub-head h3{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    padding: 0 3px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
 
 /* Line break */
 .linebreak-1{
@@ -240,6 +282,15 @@ li a{
 }
 .line-break-2{
     border: 1px solid #f1f0f1;
+}
+.linebreak-3{
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+    border-top: 4px double #ccc;
+}
+.line-break-4{
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 5px;
 }
 
 
