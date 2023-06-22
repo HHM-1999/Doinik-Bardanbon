@@ -97,7 +97,7 @@
 
     </section>
     <!-- Navbar section -->
-    <section class="navbar-menu mt-2">
+    <section class="navbar-menu mt-2 ">
         <div>
             <!-- <nav class="navbar-nav">
                 <ul>
@@ -121,11 +121,11 @@
                 </ul>
             </nav> -->
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <div class="container-fluid">
+                <div class="container">
                     <div>
                         <div class=" justify-content-center collapse navbar-collapse">
                             <ul class="nav container ">
-                                <li><a href="#" class="icon-nav px-5 mt-1">
+                                <li><a href="#" class="icon-nav  mt-1">
                                         <i class="fa-solid fa-house"></i>
                                     </a></li>
                                 <li class="nav-item">
@@ -224,10 +224,10 @@
 
     </section>
     <!-- Lead-section -->
-    <section class="lead-section mt-4">
+    <section class="lead-section  mt-4">
         <div class="container">
             <div class="row demo-row">
-                <div class="col card-1">
+                <div class="col card-1 border_right">
                     <div class="card demo1-card" style="width: 18rem;">
                         <img src="https://www.emythmaker.com/project/Template/NewsProtal/dainikbandarban/Demo1/media/imgAll/bg/sub-lead1.jpg"
                             class="demo1-image  w-100 h-75" alt="demo1">
@@ -252,7 +252,7 @@
                     </div>
                 </div>
 
-                <div class="col-6 card-2 ">
+                <div class="col-6 card-2 border_right ">
                     <div class="lead-img-box">
 
                         <img src="https://www.emythmaker.com/project/Template/NewsProtal/dainikbandarban/Demo1/media/imgAll/bg/main-lead.jpg"
@@ -285,18 +285,29 @@
                     </div>
                 </div>
                 <div class="col">
-                    <ul class="nav nav-tabs w-100 ">
+                    <ul class="nav nav-tabs " role="tablist">
+                        <li class="nav-item " style="margin: 0 0 0 10px;">
+                            <a class="nav-link active" data-bs-toggle="tab" href="#tabs-1" role="tab"
+                                aria-selected="true">সর্বশেষ</a>
+                        </li>
+                        <li class="nav-item " style="margin: 0 0 0 45px;">
+                            <a class="nav-link" data-bs-toggle="tab" href="#tabs-2" role="tab"
+                                aria-selected="false">সর্বাধিক</a>
+                        </li>
+                    </ul>
+
+                    <!-- <ul class="nav nav-tabs w-100 ">
                         <li class="nav-item">
                             <a class="nav-link  nav-btn" aria-current="page" href="#">সর্বশেষ</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link nav-btn" href="#">সর্বাধিক</a>
-                        </li>
+                        </li> -->
 
                     </ul>
 
                     <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0"
-                        class="scrollspy-example nav-pills" style="max-height: 298px; overflow: auto;" tabindex="0">
+                        class="scrollspy-example nav-pills" style="max-height: 403px; overflow: auto;" tabindex="0">
                         <p><a href="#" style="text-decoration: none;" class="text-dark"> আগামী নির্বাচনে সরকারের
                                 কোনো
                                 হস্তক্ষেপ
@@ -361,8 +372,8 @@
         </div>
     </section>
     <!-- Lead-card -->
-    <section class="lead-card mt-3">
-        <div class="row mx-5 mt-3">
+    <section class="lead-card container mt-3">
+        <div class="row gx-2 mt-3">
             <div class="col-md-3 d-flex">
                 <div class=" card-1 shadow-sm p-2">
                     <div class="card demo1-card" style="width: 18rem;">
@@ -431,10 +442,10 @@
         </div>
     </section>
     <!-- Rajniti-section -->
-    <section class="rajniti-section">
-        <div class="rajniti-area ">
+    <section class="rajniti-section container">
+        <div class="rajniti-area   ">
 
-            <div class="row mt-5 mx-5 ">
+            <div class="row">
                 <div class="col-md-9">
                     <!-- heading -->
                     <div class="linebreak-3"></div>
@@ -814,8 +825,8 @@
 
     </section>
     <!-- nogor jure section -->
-    <section class="mt-2 ">
-        <div class="line-break-5 nogor-area">
+    <section class="container">
+        <div class="line-break-5 ">
             <div class="dheadtitle">
                 <a href="#">
                     <span></span>
@@ -824,8 +835,8 @@
                 </a>
             </div>
         </div>
-        <div class="lead-card m-2">
-            <div class="row mx-4">
+        <div class="lead-card ">
+            <div class="row g-1">
                 <div class="col-md-3 d-flex">
                     <div class=" card-1 shadow-sm p-2">
                         <div class="card demo1-card" style="width: 18rem;">
@@ -900,7 +911,7 @@
 
     </section>
     <!-- jatiyo section -->
-    <section class="sports-area mt-2 m-5">
+    <section class="sports-area mt-2 container">
         <div class="row ">
             <div class="col-md-6 py-1">
                 <div class="jatio-area">
@@ -1080,12 +1091,661 @@
                         </div>
 
                     </div>
+                    <!-- kheladhula area section -->
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div>
+                                <div>
+                                    <a href="#">
+                                        <picture>
+                                            <img src="https://www.emythmaker.com/project/Template/NewsProtal/dainikbandarban/Demo1/media/imgAll/bg/sp1.jpg"
+                                                alt="" class="img-fluid w-100">
+                                        </picture>
+                                    </a>
+                                </div>
+                                <div class="jatio-sub-menu-head mt-3" style="min-height: 52px;">
+                                    <h3>বাংলাদেশ ভবিষ্যতে ফুটবল বিশ্বকাপ খেলবে: প্রধানমন্ত্রী
+
+                                    </h3>
+                                </div>
+                                <div class="jatio-desc mt-4">
+                                    <p>আ.লীগ ক্ষমতাকে জনসেবার সুযোগ হিসেবে দেখে: প্রধানমন্ত্রীআ.লীগ ক্ষমতাকে জনসেবার
+                                        সুযোগ হিসেবে দেখে: প্রধানমন্ত্রীআ.লীগ ক্ষমতাকে জনসেবার সুযোগ হিসেবে দেখে:
+                                        প্রধানমন্ত্রীআ.লীগ ক্ষমতাকে জনসেবার সুযোগ হিসেবে দেখে: প্রধানমন্ত্রীআ.লীগ
+                                        ক্ষমতাকে জনসেবার সুযোগ হিসেবে দেখে: প্রধানমন্ত্রী</p>
+                                </div>
+                                <div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="Dcatnewslist border_bottom_jatio ">
+                                <div class="row gx-2">
+                                    <div class="card mb-1" style="max-width: 300px;">
+                                        <div class="row g-3">
+                                            <div class="col-md-5 col-5">
+                                                <div class="Dcat-img-box">
+                                                    <picture>
+                                                        <img src="https://www.emythmaker.com/project/Template/NewsProtal/dainikbandarban/Demo1/media/imgAll/bg/sp2.jpg"
+                                                            alt="" title="" class="img-fluid  " style="height: 65px;">
+                                                    </picture>
+                                                </div>
+
+                                            </div>
+                                            <div class="col-md-7 col-7">
+                                                <div class="col-md-7 col-7">
+
+                                                    <div class="dcat-list-items">
+                                                        <h5 class="Title">বাংলাদেশের ঐতিহাসিক জয়ে মাশরাফির উচ্ছ্বাস</h5>
+                                                    </div>
+
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="Dcatnewslist border_bottom_jatio  ">
+                                <div class="row gx-2">
+                                    <div class="card mb-1" style="max-width: 300px;">
+                                        <div class="row g-3">
+                                            <div class="col-md-5 col-5">
+                                                <div class="Dcat-img-box">
+                                                    <picture>
+                                                        <img src="https://www.emythmaker.com/project/Template/NewsProtal/dainikbandarban/Demo1/media/imgAll/bg/sp3.jpg"
+                                                            alt="" title="" class="img-fluid  " style="height: 65px;">
+                                                    </picture>
+                                                </div>
+
+                                            </div>
+                                            <div class="col-md-7 col-7 ">
+                                                <div class="col-md-7 col-7">
+
+                                                    <div class="dcat-list-items">
+                                                        <h5 class="Title">সাকিবের রেকর্ড গড়া ম্যাচে বাংলাদেশের জয়</h5>
+                                                    </div>
+
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="Dcatnewslist border_bottom_jatio ">
+                                <div class="row gx-2">
+                                    <div class="card mb-1" style="max-width: 300px;">
+                                        <div class="row g-3">
+                                            <div class="col-md-5 col-5">
+                                                <div class="Dcat-img-box">
+                                                    <picture>
+                                                        <img src="https://www.emythmaker.com/project/Template/NewsProtal/dainikbandarban/Demo1/media/imgAll/bg/sp4.jpg"
+                                                            alt="" title="" class="img-fluid  " style="height: 65px;">
+                                                    </picture>
+                                                </div>
+
+                                            </div>
+                                            <div class="col-md-7 col-7">
+                                                <div class="col-md-7 col-7">
+
+                                                    <div class="dcat-list-items">
+                                                        <h5 class="Title">প্রধানমন্ত্রীকে ‘ফিফা বিশ্বকাপ ট্রফি’ প্রদর্শন
+                                                        </h5>
+                                                    </div>
+
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="Dcatnewslist  ">
+                                <div class="row gx-1">
+                                    <div class="card mb-1" style="max-width: 300px;">
+                                        <div class="row g-3">
+                                            <div class="col-md-5 col-5">
+                                                <div class="Dcat-img-box">
+                                                    <picture>
+                                                        <img src="https://www.emythmaker.com/project/Template/NewsProtal/dainikbandarban/Demo1/media/imgAll/bg/raj1.jpg"
+                                                            alt="" title="" class="img-fluid  " style="height: 65px;">
+                                                    </picture>
+                                                </div>
+
+                                            </div>
+                                            <div class="col-md-7 col-7">
+                                                <div class="col-md-7 col-7">
+
+                                                    <div class="dcat-list-items">
+                                                        <h5 class="Title">৪ দফা দাবিতে গণতান্ত্রিক ছাত্র জোটের সমাবেশ
+                                                        </h5>
+                                                    </div>
+
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
                 </div>
             </div>
         </div>
 
 
     </section>
+
+    <!-- Law section -->
+    <section class="law-section mt-2 container">
+        <div class="row">
+            <!-- ain srinkhola area -->
+            <div class="col-md-4">
+                <!-- heading 1 -->
+                <div class="line-break-5">
+                    <div class="dheadtitle  ">
+                        <a href="">
+                            <span></span>
+                            <h2>আইন-শৃঙ্খলা</h2>
+
+                        </a>
+                    </div>
+
+                </div>
+                <!-- body1 -->
+                <div>
+                    <a href="#">
+                        <picture>
+                            <img src="https://www.emythmaker.com/project/Template/NewsProtal/dainikbandarban/Demo1/media/imgAll/bg/as1.jpg"
+                                alt="" class="img-fluid w-100">
+                        </picture>
+                    </a>
+                </div>
+                <div class="jatio-sub-menu-head mt-3" style="min-height: 52px;">
+                    <h3>ঝুঁকিপূর্ণ মার্কেটগুলো চিহ্নিত করে দ্রুত ব্যবস্থা নেয়া হবে : স্বরাষ্ট্রমন্ত্রী
+                    </h3>
+                </div>
+                <!-- sub head 1 -->
+                <div class="sub-head-list">
+                    <div class="row gx-3">
+                        <div class="col-md-5 col-5">
+
+                            <div>
+                                <a href="#">
+                                    <picture>
+                                        <img src="https://www.emythmaker.com/project/Template/NewsProtal/dainikbandarban/Demo1/media/imgAll/bg/as2.jpg"
+                                            alt="" class="img-fluid w-100">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-7 col-7">
+                            <div class="list-title">
+                                <h3 class="Title">দেশে মামলা নিষ্পত্তির হার বেড়েছে: প্রধান বিচারপতি</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sub-head-list">
+                    <div class="row gx-3">
+                        <div class="col-md-5 col-5">
+
+                            <div>
+                                <a href="#">
+                                    <picture>
+                                        <img src="https://www.emythmaker.com/project/Template/NewsProtal/dainikbandarban/Demo1/media/imgAll/bg/as3.jpg"
+                                            alt="" class="img-fluid w-100">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-7 col-7">
+                            <div class="list-title">
+                                <h3 class="Title">নিষেধাজ্ঞা নিয়ে ঘাবড়ানোর কিছু নেই:র‌্যাবের প্রতি প্রধানমন্ত্রী</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sub-head-list">
+                    <div class="row gx-3">
+                        <div class="col-md-5 col-5">
+
+                            <div>
+                                <a href="#">
+                                    <picture>
+                                        <img src="https://www.emythmaker.com/project/Template/NewsProtal/dainikbandarban/Demo1/media/imgAll/bg/as4.jpg"
+                                            alt="" class="img-fluid w-100">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-7 col-7">
+                            <div class="list-title">
+                                <h3 class="Title">আমাদের লক্ষ্য বিশ্বমানের স্মার্ট পুলিশ গড়ে তোলা : প্রধানমন্ত্রী</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- shong gothon shongbad area -->
+            <div class="col-md-4">
+                <!-- heading 2 -->
+                <div class="line-break-5">
+                    <div class="dheadtitle ">
+                        <a href="">
+                            <span></span>
+                            <h2>সংগঠন সংবাদ</h2>
+
+                        </a>
+                    </div>
+
+                </div>
+                <!-- body1 -->
+                <div>
+                    <a href="#">
+                        <picture>
+                            <img src="https://www.emythmaker.com/project/Template/NewsProtal/dainikbandarban/Demo1/media/imgAll/bg/ss1.jpg"
+                                alt="" class="img-fluid w-100">
+                        </picture>
+                    </a>
+                </div>
+                <div class="jatio-sub-menu-head mt-3" style="min-height: 52px;">
+                    <h3>চাকরির পেছনে না ঘুরে উদ্যোক্তা হোন: যুবসমাজকে প্রধানমন্ত্রী
+
+                    </h3>
+                </div>
+                <!-- sub head 2 -->
+                <div class="sub-head-list">
+                    <div class="row gx-3">
+                        <div class="col-md-5 col-5">
+
+                            <div>
+                                <a href="#">
+                                    <picture>
+                                        <img src="https://www.emythmaker.com/project/Template/NewsProtal/dainikbandarban/Demo1/media/imgAll/bg/ss2.jpg"
+                                            alt="" class=" img-fluid w-100">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-7 col-7">
+                            <div class="list-title">
+                                <h3 class="Title">বঙ্গবন্ধু যুবসমাজের আইকন: প্রধানমন্ত্রী</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sub-head-list">
+                    <div class="row gx-3">
+                        <div class="col-md-5 col-5">
+
+                            <div>
+                                <a href="#">
+                                    <picture>
+                                        <img src="https://www.emythmaker.com/project/Template/NewsProtal/dainikbandarban/Demo1/media/imgAll/bg/ss3.jpg"
+                                            alt="" class="img-fluid w-100">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-7 col-7">
+                            <div class="list-title">
+                                <h3 class="Title">ফোর্বসের তালিকায় বাংলাদেশের ৯ তরুণ</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sub-head-list">
+                    <div class="row gx-3">
+                        <div class="col-md-5 col-5">
+
+                            <div>
+                                <a href="#">
+                                    <picture>
+                                        <img src="https://www.emythmaker.com/project/Template/NewsProtal/dainikbandarban/Demo1/media/imgAll/bg/ss4.jpg"
+                                            alt="" class="img-fluid w-100">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-7 col-7">
+                            <div class="list-title">
+                                <h3 class="Title">শ্রমিক সঙ্কটে কৃষকের ধান কেটে দিলো ছাত্রলীগ</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- nirbachon area -->
+            <div class="col-md-4">
+                <!-- heading 3 -->
+                <div class="line-break-5">
+                    <div class="dheadtitle ">
+                        <a href="">
+                            <span></span>
+                            <h2>নির্বাচন</h2>
+
+                        </a>
+                    </div>
+
+                </div>
+                <!-- body1 -->
+                <div>
+                    <a href="#">
+                        <picture>
+                            <img src="https://www.emythmaker.com/project/Template/NewsProtal/dainikbandarban/Demo1/media/imgAll/bg/nb1.jpg"
+                                alt="" class="img-fluid w-100">
+                        </picture>
+                    </a>
+                </div>
+                <div class="jatio-sub-menu-head mt-3" style="min-height: 52px;">
+                    <h3>গাজীপুরের মত ভোট করতে বরিশালের প্রার্থীদের সাহায্য চাইলেন সিইসি
+                    </h3>
+                </div>
+                <!-- sub head 3 -->
+                <div class="sub-head-list">
+                    <div class="row gx-3">
+                        <div class="col-md-5 col-5">
+
+                            <div>
+                                <a href="#">
+                                    <picture>
+                                        <img src="https://www.emythmaker.com/project/Template/NewsProtal/dainikbandarban/Demo1/media/imgAll/bg/nb2.jpg"
+                                            alt="" class="img-fluid w-100">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-7 col-7">
+                            <div class="list-title">
+                                <h3 class="Title">বাংলাদেশে নির্বাচনী প্রক্রিয়াকে সহায়তা করতেই নতুন ভিসানীতি: পিটার হাস
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sub-head-list">
+                    <div class="row gx-3">
+                        <div class="col-md-5 col-5">
+
+                            <div>
+                                <a href="#">
+                                    <picture>
+                                        <img src="https://www.emythmaker.com/project/Template/NewsProtal/dainikbandarban/Demo1/media/imgAll/bg/nb3.jpg"
+                                            alt="" class="img-fluid w-100">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-7 col-7">
+                            <div class="list-title">
+                                <h3 class="Title">গাজীপুরে মডেল ভোট</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sub-head-list">
+                    <div class="row gx-3">
+                        <div class="col-md-5 col-5">
+
+                            <div>
+                                <a href="#">
+                                    <picture>
+                                        <img src="https://www.emythmaker.com/project/Template/NewsProtal/dainikbandarban/Demo1/media/imgAll/bg/raj1.jpg"
+                                            alt="" class="img-fluid w-100">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-7 col-7">
+                            <div class="list-title">
+                                <h3 class="Title">৪ দফা দাবিতে গণতান্ত্রিক ছাত্র জোটের সমাবেশ</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- District section -->
+    <section class="container district-section mt-4">
+        <div class="district-area">
+            <div class="row">
+                <div class="col-md-3 border_right">
+                    <!-- sadar -->
+                    <div class="sadar">
+                        <div class="border_bottom-2">
+                            <div class="Districtheadtitle">
+                                <a href="">
+
+                                    <h2>বান্দরবান সদর</h2>
+
+                                </a>
+                            </div>
+
+                        </div>
+                        <!-- body -->
+                        <div>
+                            <a href="#">
+                                <picture>
+                                    <img src="https://www.emythmaker.com/project/Template/NewsProtal/dainikbandarban/Demo1/media/imgAll/bg/bb1.jpg"
+                                        alt="" class="img-fluid w-100">
+                                </picture>
+                            </a>
+                        </div>
+                        <div class="jatio-sub-menu-head mt-3" style="min-height: 52px;">
+                            <h3>কৃষ্ণচূড়ায় ছেয়ে আছে সড়কের দু`পাশ
+
+                            </h3>
+                        </div>
+                        <div class="Districtcatnewslist">
+
+                            <div class="list-title">
+                                <h5 class="Title">দ্বাদশ জাতীয় সংসদ নির্বাচনে আওয়ামী লীগ এর একক প্রার্থী বীর বাহাদুর
+                                    উশৈসিং</h5>
+                            </div>
+
+                        </div>
+                        <div class="Districtcatnewslist">
+
+                            <div class="list-title">
+                                <h5 class="Title">অবশেষে আরও এক বীর সেনার আত্মবলিদানে দখল হলো সিলোপি পাড়া </h5>
+                            </div>
+
+                        </div>
+                        <div>
+
+                            <div class="list-title mt-2">
+                                <h5 class="Title">দেশে মামলা নিষ্পত্তির হার বেড়েছে: প্রধান বিচারপতি</h5>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-3 border_right">
+                    <!-- ali kodom -->
+                    <div class="alikodom">
+                        <div class="border_bottom-2">
+                            <div class="Districtheadtitle">
+                                <a href="">
+
+                                    <h2>আলীকদম</h2>
+
+                                </a>
+                            </div>
+
+                        </div>
+                        <!-- body -->
+                        <div>
+                            <a href="#">
+                                <picture>
+                                    <img src="https://www.emythmaker.com/project/Template/NewsProtal/dainikbandarban/Demo1/media/imgAll/bg/ak1.jpg"
+                                        alt="" class="img-fluid w-100">
+                                </picture>
+                            </a>
+                        </div>
+                        <div class="jatio-sub-menu-head mt-3" style="min-height: 52px;">
+                            <h3>আলীকদমে ২৮ রোহিঙ্গা নাগরিক আটক
+                            </h3>
+                        </div>
+                        <div class="Districtcatnewslist">
+
+                            <div class="list-title">
+                                <h5 class="Title"> আলীকদমে যৌথ অভিযানে ৬ বার্মিজ গরু জব্দ</h5>
+                            </div>
+
+                        </div>
+                        <div class="Districtcatnewslist">
+
+                            <div class="list-title">
+                                <h5 class="Title"> আলীকদম উপজেলা আওয়ামী লীগের নবগঠিত কমিটির সভা অনুষ্ঠিত </h5>
+                            </div>
+
+                        </div>
+                        <div>
+
+                            <div class="list-title mt-2">
+                                <h5 class="Title">আলীকদম হতে ২৮,৭০৫ পিস ইয়াবা উদ্ধার</h5>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-3 border_right">
+                    <!-- naikkhachori -->
+                    <div class="naikkhachori">
+                        <div class="border_bottom-2">
+                            <div class="Districtheadtitle">
+                                <a href="">
+
+                                    <h2>নাইক্ষ্যংছড়ি</h2>
+
+                                </a>
+                            </div>
+
+                        </div>
+                        <!-- body -->
+                        <div>
+                            <a href="#">
+                                <picture>
+                                    <img src="https://www.emythmaker.com/project/Template/NewsProtal/dainikbandarban/Demo1/media/imgAll/bg/nk1.jpg"
+                                        alt="" class="img-fluid w-100">
+                                </picture>
+                            </a>
+                        </div>
+                        <div class="jatio-sub-menu-head mt-3" style="min-height: 52px;">
+                            <h3>বাইশারী ইসলামী আদর্শ বালিকা দাখিল মাদ্রাসার অভিভাবক সমাবেশ অনুষ্ঠিত
+
+
+                            </h3>
+                        </div>
+                        <div class="Districtcatnewslist">
+
+                            <div class="list-title">
+                                <h5 class="Title"> নাইক্ষ্যংছড়িতে পার্বত্য মন্ত্রীর বিভিন্ন উন্নয়নমূলক প্রকল্পের উদ্বোধন
+                                </h5>
+                            </div>
+
+                        </div>
+                        <div class="Districtcatnewslist">
+
+                            <div class="list-title">
+                                <h5 class="Title"> নাইক্ষ্যংছড়ি উপজেলা আওয়ামী লীগের ৭১ সদস্য বিশিষ্ট পূর্ণাঙ্গ কমিটি গঠন
+                                </h5>
+                            </div>
+
+                        </div>
+                        <div>
+
+                            <div class="list-title mt-2">
+                                <h5 class="Title"> নাইক্ষ্যংছড়িতে জহুর হত্যা ঘটনায় ১১জনকে আসামী করে মামলা, গ্রেপ্তার-৪
+                                </h5>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-3 border_right">
+                    <!-- royagnchori -->
+                    <div class="royagnchori">
+                        <div class="border_bottom-2">
+                            <div class="Districtheadtitle">
+                                <a href="">
+
+                                    <h2>রোয়াংছড়ি</h2>
+
+                                </a>
+                            </div>
+
+                        </div>
+                        <!-- body -->
+                        <div>
+                            <a href="#">
+                                <picture>
+                                    <img src="https://www.emythmaker.com/project/Template/NewsProtal/dainikbandarban/Demo1/media/imgAll/bg/rr1.jpg"
+                                        alt="" class="img-fluid w-100">
+                                </picture>
+                            </a>
+                        </div>
+                        <div class="jatio-sub-menu-head mt-3" style="min-height: 52px;">
+                            <h3>রোয়াংছড়িতে বঙ্গবন্ধুর জুলিও কুরি শান্তি পদক প্রাপ্তির ৫০ বছর পূর্তি উদযাপন
+
+
+                            </h3>
+                        </div>
+                        <div class="Districtcatnewslist">
+
+                            <div class="list-title">
+                                <h5 class="Title">রোয়াংছড়িতে সড়ক দূর্ঘটনায় নিহত ১ আহত ১ জন</h5>
+                            </div>
+
+                        </div>
+                        <div class="Districtcatnewslist">
+
+                            <div class="list-title">
+                                <h5 class="Title">রোয়াংছড়ি আনসার ভিডিপি কার্যালয় ও থানা পরিদর্শনে যুগ্ম সচিব </h5>
+                            </div>
+
+                        </div>
+                        <div>
+
+                            <div class="list-title mt-2">
+                                <h5 class="Title">রোয়াংছড়িতে মোবাইল কোর্ট পরিচালনা</h5>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
     <!-- footer -->
     <section class="footer-banner">
         <div class="container">
