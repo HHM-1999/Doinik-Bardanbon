@@ -137,7 +137,7 @@ li a {
 
 .lead-head {
   position: absolute;
-  top: 640px;
+  top: 654px;
   padding: 10px 5px;
   background: linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.9) 100%)
     0px 0px repeat scroll rgba(0, 0, 0, 0);
@@ -173,8 +173,8 @@ li a {
   font-size: 18px;
 }
 .lead-img-box img {
-  width: 600px;
-  height: 292px;
+  width: 660px;
+  height: 303px;
 }
 .card-text-para {
   font-size: 13px;
@@ -425,6 +425,59 @@ h5 {
   font-size: 16px;
   line-height: 20px;
   color: #000;
+}
+/* Photography section */
+.photo_gallary {
+  margin-top: 60px;
+  padding: 30px 0;
+  background-color: #222;
+}
+.photo_title h2 {
+  font-weight: 400;
+  font-size: 23px;
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+  margin: 0 0 0 !important;
+  padding: 10px 0;
+  color: #fff;
+}
+.photo_title span {
+  color: #900;
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  background: #00a651;
+  margin-right: 8px;
+}
+.photo_icon {
+  position: absolute;
+  color: #000;
+  left: 18px;
+  top: 7px;
+  background: #fff;
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+  text-align: center;
+  line-height: 35px;
+}
+.photo_box {
+  overflow: hidden;
+  position: relative;
+}
+/*  video gallary */
+.video_icon {
+  position: absolute;
+  color: #d00;
+  left: 18px;
+  top: 7px;
+  background: #fff;
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+  text-align: center;
+  line-height: 38px;
 }
 /* footer-banner */
 .col-1-image {
