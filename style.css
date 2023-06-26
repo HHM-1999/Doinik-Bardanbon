@@ -3,6 +3,7 @@ body {
   font-family: "SolaimanLipi", sans-serif;
   line-height: 1.5rem;
 }
+
 .header-area {
   color: white;
   background-color: #9b9b9b;
@@ -188,6 +189,65 @@ li a {
   height: 120px;
 }
 /* panel-heading */
+.DLPSTab2 .nav-tabs {
+  border: none;
+  color: #000;
+  background: #f5f5f5;
+  border-bottom: 1px solid #ddd;
+}
+.DLPSTab2 .nav-tabs .nav-item {
+  width: 50%;
+  float: left;
+}
+.DLPSTab2 .nav-tabs .nav-item a.active {
+  background: #555;
+  font-weight: 600;
+  color: #fff;
+}
+.DLPSTab2 .nav-tabs .nav-item a {
+  border: none;
+  border-radius: 0;
+  text-align: center;
+  font-size: 18px;
+  padding: 7px 0;
+  background-color: #fff;
+  color: #000;
+}
+.panel-heading {
+  max-height: 403px;
+  overflow: auto;
+}
+.nav {
+  list-style: none;
+}
+.DLatestNews .DLatestNewsList {
+  border-bottom: 1px solid #e2e2e2;
+  padding: 8px 8px 6px;
+}
+.DLatestNewsList a {
+  color: #222;
+  text-decoration: none;
+}
+.DLatestNewsList h3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: "SolaimanLipi", sans-serif;
+  margin-bottom: 0;
+  font-size: 16px;
+  line-height: 20px;
+}
+.allnews a {
+  display: block;
+  text-align: center;
+  border: none;
+  padding: 5px;
+  color: #fff;
+  background: #555;
+  text-decoration: none;
+}
 /* .panel-btn{
     background-color: #555;
     color: white;
@@ -216,7 +276,7 @@ li a {
     padding-left: 20px;
 } */
 
-.nav-btn:hover {
+/* .nav-btn:hover {
   background-color: #555;
   color: #f1f0f1;
 }
@@ -240,7 +300,7 @@ li a {
 .nav-tabs .nav-link {
   margin-bottom: -1px;
   background: 0 0;
-}
+} */
 /*  Rajniti-section */
 .dheadtitle span {
   color: #900;
@@ -353,6 +413,13 @@ li a {
 .border_bottom-2 {
   border-bottom: 1px solid #ccc;
   margin-bottom: 10px;
+}
+/* picture ratio */
+picture img {
+  aspect-ratio: 1.7777;
+  object-fit: cover;
+  object-position: center;
+  transition: all 0.5s ease-in;
 }
 /* Nogor jure section */
 .nogor-area {
