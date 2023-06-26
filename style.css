@@ -29,7 +29,7 @@ body {
 .converter {
   background-color: #d00;
   padding: 4px 15px;
-  margin-right: 23px;
+  margin-right: 20px;
   color: #fff;
   font-size: 15px;
   border-radius: 20px;
@@ -83,8 +83,8 @@ body {
 }
 .ad-section img {
   width: 700px;
-  height: 267px;
-  margin-left: 137px;
+  height: 270px;
+  margin-left: -273px;
 }
 
 /* Navbar section */
@@ -126,29 +126,40 @@ li a {
 .icon-nav-home {
   margin-right: -12px;
 }
-.drop-menu a {
-  color: white;
-  background-color: #333;
-}
+
 .drop-menu a:hover {
   background-color: #fff;
   color: black;
 }
+.drop-menu a {
+  color: white;
+}
+.drop-menu {
+  background-color: #333;
+  border: 0;
+  border-radius: 0;
+  top: 0;
+}
+.drop-menu:last-child {
+  padding: 0;
+  top: 120%;
+}
+
 /* Lead-section */
 
 .lead-head {
   position: absolute;
-  top: 654px;
+  top: 656px;
   padding: 10px 5px;
   background: linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.9) 100%)
     0px 0px repeat scroll rgba(0, 0, 0, 0);
   width: 40%;
 }
 .lead-head h1 {
-  font-size: 20px;
-  line-height: 30px;
-  font-weight: 500;
-  padding: 0 10px;
+  font-size: 23px;
+  line-height: 33px;
+  font-weight: 600;
+  padding: 0 5px;
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
@@ -167,15 +178,13 @@ li a {
 .card {
   border: none;
 }
-.demo-row {
-  padding: 0 0 0 0;
-}
+
 .card-text {
   font-size: 18px;
 }
 .lead-img-box img {
-  width: 660px;
-  height: 303px;
+  width: 615px;
+  height: 311px;
 }
 .card-text-para {
   font-size: 13px;
@@ -186,9 +195,12 @@ li a {
 }
 .img-box {
   width: 203px;
-  height: 120px;
+  height: 111px;
 }
 /* panel-heading */
+.nav-item.dropdown:hover ul {
+  display: block;
+}
 .DLPSTab2 .nav-tabs {
   border: none;
   color: #000;
@@ -408,7 +420,7 @@ li a {
   border-right: 1px solid #ccc;
 }
 .border_bottom {
-  border-bottom: 2px solid #f1f0f1;
+  border-bottom: 1px solid #f1f0f1;
 }
 .border_bottom-2 {
   border-bottom: 1px solid #ccc;
