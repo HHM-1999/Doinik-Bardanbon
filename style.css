@@ -3,6 +3,36 @@ body {
   font-family: "SolaimanLipi", sans-serif;
   line-height: 1.5rem;
 }
+/* back to top button */
+#gototop {
+  display: inline-block;
+  background-color: #00a653;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 100px;
+  right: 30px;
+  transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
+  z-index: 1000;
+}
+#gototop .show {
+  opacity: 1;
+  visibility: visible;
+}
+#gototop:active {
+  background-color: #555;
+}
+#gototop:hover {
+  cursor: pointer;
+  background-color: #333;
+}
+#gototop i {
+  font-size: 25px;
+  line-height: 50px;
+  color: #fff;
+}
 
 .header-area {
   color: white;
@@ -11,6 +41,7 @@ body {
 }
 .top-tab p {
   font-size: 16px;
+
   line-height: 22px;
   margin-bottom: 0;
 }
@@ -88,6 +119,14 @@ body {
 }
 
 /* Navbar section */
+.navbarMenu{
+  margin-top: 11px;
+}
+.sticky-element {
+  position: sticky;
+  top: 0;
+  z-index: 9;
+}
 .navbar-nav {
   display: flex;
   padding-left: 0;
@@ -146,14 +185,16 @@ li a {
 }
 
 /* Lead-section */
+.lead-section{
+  padding: 30px 0;
+}
 
 .lead-head {
   position: absolute;
-  top: 656px;
+  bottom: 10px;
   padding: 10px 5px;
-  background: linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.9) 100%)
-    0px 0px repeat scroll rgba(0, 0, 0, 0);
-  width: 40%;
+  background: linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.9) 100%) 0px 0px repeat scroll rgba(0, 0, 0, 0);
+  width: 100%;
 }
 .lead-head h1 {
   font-size: 23px;
@@ -169,7 +210,7 @@ li a {
 }
 .container {
   padding-right: 10px;
-  padding-left: 10px;
+  padding-left: 10 px;
   max-width: 1230px;
 }
 .card-1 {
@@ -180,11 +221,13 @@ li a {
 }
 
 .card-text {
-  font-size: 18px;
+  font-size: 20px;
 }
-.lead-img-box img {
-  width: 615px;
-  height: 311px;
+.lead-wrapper {
+ 
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 10px;
 }
 .card-text-para {
   font-size: 13px;
@@ -194,8 +237,8 @@ li a {
   font-size: 16px;
 }
 .img-box {
-  width: 203px;
-  height: 111px;
+  overflow: hidden;
+  position: relative;
 }
 /* panel-heading */
 .nav-item.dropdown:hover ul {
@@ -433,6 +476,10 @@ picture img {
   object-position: center;
   transition: all 0.5s ease-in;
 }
+picture img:hover{
+    opacity: 0.7;
+    transform: scale(1.05);}
+
 /* Nogor jure section */
 .nogor-area {
   margin: 50px;
@@ -453,6 +500,9 @@ picture img {
   padding: 0 3px;
   margin: 0;
 }
+.sub-list{
+  margin-top: 25px;
+}
 
 .jatio-desc p {
   font-size: 18px;
@@ -471,7 +521,7 @@ picture img {
 /* law section */
 .list-title h3 {
   font-size: 18px;
-  line-height: 24px;
+  line-height: 20px;
 }
 .sub-head-list {
   padding: 10px 0;
@@ -559,14 +609,92 @@ h5 {
   line-height: 38px;
 }
 /* footer-banner */
-.col-1-image {
-  width: 200px;
-  height: 200px;
-  padding: 10px 10px 30px 0;
-  margin: 0 6% 0 0;
+.address {
+  margin: 0;
+  font-weight: 600;
 }
+.address p {
+  line-height: 26px;
+  font-size: 20px;
+  margin: 0;
+}
+.contact p {
+  line-height: 28px;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+}
+.footer-banner {
+  background: #f5f5f5;
+  padding: 15px 0;
+  color: #000;
+}
+.footer-banner a {
+  color: #000;
+}
+
 .contact p a {
-  font-size: 16px;
   color: #000;
   text-decoration: none;
+}
+/* footer */
+.dfooter {
+  padding: 10px 0;
+  background: #212529;
+  margin-bottom: 42px;
+}
+.dfooter p {
+  color: #f0f0f0;
+  font-size: 17px;
+}
+/* shiso shonbaad */
+.scrollsection {
+  z-index: 9999;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: #e5e5e5;
+  color: #000;
+  font-size: 18px;
+}
+.scrollpart {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -10px;
+}
+.scrollheading {
+  width: 150px;
+  padding: 0 0 0px 8px;
+  background: #00a653;
+}
+.scrollheading p {
+  font-size: 20px;
+  color: #fff;
+  padding: 10px 0 0;
+}
+.scrolllist {
+  width: calc(100% - 151px);
+  padding: 0 10px;
+}
+.scrolllist a {
+  color: #222;
+  text-decoration: none;
+}
+.scrolllist a span {
+  padding-right: 25px;
+  display: inline-block;
+  font-size: 18px;
+  color: #333;
+  font-weight: 400;
+  margin-top: 10px;
+}
+.circle-icon {
+  color: #333;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background: #00a653;
+  margin-right: 3px;
+  border-radius: 50%;
 }

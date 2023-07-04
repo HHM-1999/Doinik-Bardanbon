@@ -79,12 +79,16 @@
         </div>
 
     </header>
+    <!-- back to top button -->
+    <a id="gototop" class="d-none" onclick="gototop()">
+        <i class="fa-solid fa-chevron-up"></i>
+    </a>
     <!-- banner-section -->
     <section class="banner-image">
         <div class="container">
             <div class="row">
                 <div class="col-lg-5 col-md-6 col-6 d-flex justify-content-md-start  align-items-center">
-                    <div class="logo-section img-fluid ">
+                    <div class="logo-section ">
                         <a>
                             <img src="./Images/logo.svg" alt="logo">
                         </a>
@@ -95,7 +99,7 @@
                 <div class="col-lg-7 col-md-12 col-12 d-flex justify-content-md-center d-flex justify-content-end">
                     <div class="ad-section mt-3 img-fluid">
                         <a>
-                            <img src="https://www.emythmaker.com/project/Template/NewsProtal/dainikbandarban/Demo1/media/imgAll/bg/ad.jpg"
+                            <img src="./Images/ad.jpg"
                                 alt="ads">
                         </a>
 
@@ -109,10 +113,9 @@
     </section>
     <!-- Navbar section -->
 
-    <section class="navbar-menu mt-2 ">
-        <div class="Header-nav">
-            <div class="container">
-
+    <section class="navbar-menu sticky-element navbarMenu">
+        <div class="Header-nav ">
+            <div class="container ">
                 <div class="row">
                     <div class="col-md-12">
                         <nav class="navbar navbar-expand-lg navbar-light">
@@ -319,14 +322,14 @@
 
     </section>
     <!-- Lead-section -->
-    <section class="lead-section  mt-2">
+    <section class="lead-section ">
         <div class="container">
             <div class="row demo-row">
                 <div class="col-md-3 card-1 border_right">
-                    <div class="card demo1-card" style="width: 18rem;">
+                    <div class="card demo1-card">
                         <picture>
-                            <img src="https://www.emythmaker.com/project/Template/NewsProtal/dainikbandarban/Demo1/media/imgAll/bg/sub-lead1.jpg"
-                                class="demo1-image img-fluid img100" alt="demo1">
+                            <img src="./Images/sub-lead1.jpg"
+                                class="img-fluid img100" alt="demo1">
                         </picture>
                         <div>
 
@@ -337,10 +340,10 @@
                         <div class="linebreak-1 mt-3"></div>
                     </div>
                     <br>
-                    <div class="card demo2-card img-box" style="width: 18rem;">
+                    <div class="card demo2-card">
                         <picture>
-                            <img src="https://www.emythmaker.com/project/Template/NewsProtal/dainikbandarban/Demo1/media/imgAll/bg/sub-lead2.jpg"
-                                class="demo2-image  img-fluid img100" alt="demo2">
+                            <img src="./Images/sub-lead2.jpg"
+                                class=" img-fluid img100" alt="demo2">
                         </picture>
                         <div>
 
@@ -352,21 +355,28 @@
                 </div>
 
                 <div class="col-md-6 card-2 border_right ">
-                    <div class="lead-img-box">
+                    <div class="lead-wrapper align-items-stretch">
 
-                        <img src="https://www.emythmaker.com/project/Template/NewsProtal/dainikbandarban/Demo1/media/imgAll/bg/main-lead.jpg"
-                            alt="lead-image">
+                     <a href="">
+                        <div class="img-box">
+                            <picture>
+                                <img src="./Images/main-lead.jpg"
+                                alt="lead-image" class="img-fluid img100">
+                              </picture>
+
+                        </div>
+                     </a>
                         <div class="lead-head">
                             <h1>আজ ঢাকা জেলা আ.লীগ কার্যালয় উদ্বোধন করবেন প্রধানমন্ত্রী</h1>
                         </div>
                     </div>
                     <div>
 
-                        <div class="card mb-2" style="max-width: 580px;">
+                        <div class="card">
                             <div class="row g-0">
-                                <div class="col-md-5 mt-4 ">
+                                <div class="col-md-5 mt-3 ">
                                     <picture>
-                                        <img src="https://www.emythmaker.com/project/Template/NewsProtal/dainikbandarban/Demo1/media/imgAll/bg/lead-d.jpg"
+                                        <img src="./Images/lead-d.jpg"
                                             class=" img-fluid img100" alt="img-box">
                                     </picture>
                                 </div>
@@ -654,16 +664,18 @@
         </div>
     </section>
     <!-- Lead-card -->
-    <section class="lead-card container mt-2">
-        <div class="row gx-2 mt-3">
+    <section class="lead-card container mt-3">
+        <div class="row mt-3">
             <div class="col-md-3 d-flex">
-                <div class=" card-1 shadow-sm p-2">
-                    <div class="card demo1-card" style="width: 18rem;">
-                        <img src="https://www.emythmaker.com/project/Template/NewsProtal/dainikbandarban/Demo1/media/imgAll/bg/lead-card1.jpg"
-                            class="demo1-image  w-100 h-auto" alt="demo1">
+                <div class=" card-1 shadow-sm">
+                    <div class="card demo1-card">
+                       <picture>
+                        <img src="./Images/lead-card1.jpg"
+                        class="img-fluid img100" alt="demo1">
+                       </picture>
                         <div>
 
-                            <h3 class="card-text mt-3">
+                            <h3 class="card-text mt-2 mx-2 p-2 ">
                                 <b>রাশিয়া থেকে আসবে ১ লাখ ৮০ হাজার টন সার</b>
                             </h3>
                         </div>
@@ -673,13 +685,15 @@
                 </div>
             </div>
             <div class="col-md-3 d-flex">
-                <div class=" card-1 shadow-sm p-2">
-                    <div class="card demo1-card" style="width: 18rem;">
-                        <img src="https://www.emythmaker.com/project/Template/NewsProtal/dainikbandarban/Demo1/media/imgAll/bg/lead-card2.jpg"
-                            class="demo1-image  w-100 h-auto" alt="demo1">
+                <div class=" card-1 shadow-sm">
+                    <div class="card demo1-card">
+                       <picture>
+                        <img src="./Images/lead-card2.jpg"
+                        class="img-fluid img100" alt="demo1">
+                       </picture>
                         <div>
 
-                            <h3 class="card-text mt-3">
+                            <h3 class="card-text mt-2 mx-2 p-2">
                                 <b>বগুড়ায় গড়ে উঠছে সবুজ অর্থনীতির বলয়</b>
                             </h3>
                         </div>
@@ -689,13 +703,15 @@
                 </div>
             </div>
             <div class="col-md-3 d-flex">
-                <div class=" card-1 shadow-sm p-2">
-                    <div class="card demo1-card" style="width: 18rem;">
-                        <img src="https://www.emythmaker.com/project/Template/NewsProtal/dainikbandarban/Demo1/media/imgAll/bg/lead-card3.jpg"
-                            class="demo1-image  w-100 h-auto" alt="demo1">
+                <div class=" card-1 shadow-sm">
+                    <div class="card demo1-card">
+                       <picture>
+                        <img src="./Images/lead-card3.jpg"
+                        class="img-fluid img100" alt="demo1">
+                       </picture>
                         <div>
 
-                            <h3 class="card-text mt-3">
+                            <h3 class="card-text mt-2 mx-2 p-2">
                                 <b>দোহাজারী-ঘুমধুম রেললাইন প্রকল্পে বরাদ্দ ১৪শ কোটি টাকা</b>
                             </h3>
                         </div>
@@ -705,13 +721,15 @@
                 </div>
             </div>
             <div class="col-md-3 d-flex">
-                <div class=" card-1 shadow-sm p-2">
-                    <div class="card demo1-card" style="width: 18rem;">
-                        <img src="https://www.emythmaker.com/project/Template/NewsProtal/dainikbandarban/Demo1/media/imgAll/bg/lead-card4.jpg"
-                            class="demo1-image  w-100 h-auto" alt="demo1">
+                <div class=" card-1 shadow-sm">
+                    <div class="card demo1-card">
+                        <picture>
+                            <img src="./Images/lead-card4.jpg"
+                            class="img-fluid img100" alt="demo1">
+                        </picture>
                         <div>
 
-                            <h3 class="card-text mt-3">
+                            <h3 class="card-text mt-2 mx-2 p-2">
                                 <b>সরাসরি ভাতা পাবেন প্রায় দুই কোটি মানুষ</b>
                             </h3>
                         </div>
@@ -724,7 +742,7 @@
         </div>
     </section>
     <!-- Rajniti-section -->
-    <section class="rajniti-section container mt-2">
+    <section class="rajniti-section container mt-3">
         <div class="rajniti-area   ">
 
             <div class="row">
@@ -747,8 +765,8 @@
                                     <a href="#">
                                         <div class="rajniti-img-box">
                                             <picture>
-                                                <img class="img-fluid w-100"
-                                                    src="https://www.emythmaker.com/project/Template/NewsProtal/dainikbandarban/Demo1/media/imgAll/bg/raj1.jpg"
+                                                <img class="img-fluid img100"
+                                                    src="./Images/raj1.jpg"
                                                     alt="rajniti-main-news" title="rajniti-main-news">
                                             </picture>
 
@@ -767,8 +785,8 @@
                                                 <a href="#" style="text-decoration: none;">
                                                     <div class="rajniti-img-box-2">
                                                         <picture>
-                                                            <img class="img-fluid w-100"
-                                                                src="https://www.emythmaker.com/project/Template/NewsProtal/dainikbandarban/Demo1/media/imgAll/bg/raj-sub1.jpeg"
+                                                            <img class="img-fluid img100"
+                                                                src="./Images/raj-sub1.jpeg"
                                                                 alt="rajniti-sub news">
                                                         </picture>
 
@@ -790,8 +808,8 @@
                                                 <a href="#" style="text-decoration: none;">
                                                     <div class="rajniti-img-box-2">
                                                         <picture>
-                                                            <img class="img-fluid w-100"
-                                                                src="https://www.emythmaker.com/project/Template/NewsProtal/dainikbandarban/Demo1/media/imgAll/bg/raj-sub2.jpg"
+                                                            <img class="img-fluid img100"
+                                                                src="./Images/raj-sub2.jpg"
                                                                 alt="rajniti-sub news">
                                                         </picture>
 
@@ -819,13 +837,13 @@
                             <div class="col-md-4">
                                 <div class="Dcatnewslist border_bottom">
                                     <div class="row">
-                                        <div class="card mb-3" style="max-width: 540px;">
+                                        <div class="card mb-4">
                                             <div class="row">
                                                 <div class="col-md-5 col-5">
                                                     <div class="Dcat-img-box">
                                                         <picture>
-                                                            <img src="https://www.emythmaker.com/project/Template/NewsProtal/dainikbandarban/Demo1/media/imgAll/bg/raj2.jpg"
-                                                                alt="Dcat" style="width: 120px; height: 85px;" title="">
+                                                            <img src="./Images/raj2.jpg"
+                                                                alt="Dcat" style=" height: 85px;" title="" class="img-fluid img100">
                                                         </picture>
                                                     </div>
 
@@ -849,13 +867,13 @@
                                 </div>
                                 <div class="Dcatnewslist border_bottom mt-2 ">
                                     <div class="row">
-                                        <div class="card mb-3" style="max-width: 540px;">
+                                        <div class="card mb-4" >
                                             <div class="row">
                                                 <div class="col-md-5 col-5">
                                                     <div class="Dcat-img-box">
                                                         <picture>
-                                                            <img src="https://www.emythmaker.com/project/Template/NewsProtal/dainikbandarban/Demo1/media/imgAll/bg/raj3.jpg"
-                                                                alt="" title="" style="width: 120px; height: 85px;">
+                                                            <img src="./Images/raj3.jpg"
+                                                                alt="" title="" style=" height: 85px;" class="img-fluid img100">
                                                         </picture>
                                                     </div>
 
@@ -880,13 +898,13 @@
                                 </div>
                                 <div class="Dcatnewslist border_bottom mt-2">
                                     <div class="row">
-                                        <div class="card mb-3" style="max-width: 540px;">
+                                        <div class="card mb-4">
                                             <div class="row">
                                                 <div class="col-md-5 col-5">
                                                     <div class="Dcat-img-box">
                                                         <picture>
-                                                            <img src="https://www.emythmaker.com/project/Template/NewsProtal/dainikbandarban/Demo1/media/imgAll/bg/raj4.jpg"
-                                                                alt="" title="" style="width: 120px; height: 85px;">
+                                                            <img src="./Images/raj4.jpg"
+                                                                alt="" title="" style=" height: 85px;" class="img-fluid img100">
                                                         </picture>
                                                     </div>
 
@@ -911,13 +929,13 @@
                                 </div>
                                 <div class="Dcatnewslist border_bottom mt-2">
                                     <div class="row">
-                                        <div class="card mb-3" style="max-width: 540px;">
+                                        <div class="card mb-4" >
                                             <div class="row">
                                                 <div class="col-md-5 col-5">
                                                     <div class="Dcat-img-box">
                                                         <picture>
-                                                            <img src="https://www.emythmaker.com/project/Template/NewsProtal/dainikbandarban/Demo1/media/imgAll/bg/raj5.jpg"
-                                                                alt="" title="" style="width: 120px; height: 85px;">
+                                                            <img src="./Images/raj5.jpg"
+                                                                alt="" title="" style="height: 85px;" class="img-fluid img100">
                                                         </picture>
                                                     </div>
 
@@ -935,13 +953,13 @@
                                 </div>
                                 <div class="Dcatnewslist mt-2">
                                     <div class="row">
-                                        <div class="card mb-3" style="max-width: 540px;">
+                                        <div class="card mb-4">
                                             <div class="row">
                                                 <div class="col-md-5 col-5">
                                                     <div class="Dcat-img-box">
                                                         <picture>
-                                                            <img src="https://www.emythmaker.com/project/Template/NewsProtal/dainikbandarban/Demo1/media/imgAll/bg/raj6.jpg"
-                                                                alt="" title="" style="width: 120px; height: 85px;">
+                                                            <img src="./Images/raj6.jpg"
+                                                                alt="" title="" style="height: 85px;" class="img-fluid img100">
                                                         </picture>
                                                     </div>
 
@@ -979,8 +997,8 @@
                         <a href="#" style="text-decoration: none;">
                             <div class="rajniti-img-box-2">
                                 <picture>
-                                    <img class="img-fluid w-100"
-                                        src="https://www.emythmaker.com/project/Template/NewsProtal/dainikbandarban/Demo1/media/imgAll/bg/raj1.jpg"
+                                    <img class="img-fluid img100"
+                                        src="./Images/raj1.jpg"
                                         alt="rajniti-sub news">
                                 </picture>
 
@@ -995,13 +1013,13 @@
                     <!-- news list -->
                     <div class="Dcatnewslist border_bottom mt-2">
                         <div class="row gx-2">
-                            <div class="card mb-3" style="max-width: 540px;">
+                            <div class="card mb-3">
                                 <div class="row g-3">
                                     <div class="col-md-5 col-5">
                                         <div class="Dcat-img-box">
                                             <picture>
-                                                <img src="https://www.emythmaker.com/project/Template/NewsProtal/dainikbandarban/Demo1/media/imgAll/bg/jd2.jpg"
-                                                    alt="" title="" style="width: 120px; height: 85px;">
+                                                <img src="./Images/jd2.jpg"
+                                                    alt="jd2" title="jd2" style=" height: 85px;" class="img-fluid img100">
                                             </picture>
                                         </div>
                                     </div>
@@ -1017,13 +1035,13 @@
                     </div>
                     <div class="Dcatnewslist border_bottom mt-2">
                         <div class="row gx-2">
-                            <div class="card mb-3" style="max-width: 540px;">
+                            <div class="card mb-3">
                                 <div class="row g-3">
                                     <div class="col-md-5 col-5">
                                         <div class="Dcat-img-box">
                                             <picture>
-                                                <img src="https://www.emythmaker.com/project/Template/NewsProtal/dainikbandarban/Demo1/media/imgAll/bg/jd3.jpg"
-                                                    alt="" title="" style="width: 120px; height: 85px;">
+                                                <img src="./Images/jd3.jpg"
+                                                    alt="jd3" title="jd3" style="height: 85px;" class="img-fluid img100">
                                             </picture>
                                         </div>
 
@@ -1040,13 +1058,13 @@
                     </div>
                     <div class="Dcatnewslist mt-2">
                         <div class="row gx-2">
-                            <div class="card mb-3" style="max-width: 540px;">
+                            <div class="card mb-3">
                                 <div class="row g-3">
                                     <div class="col-md-5 col-5">
                                         <div class="Dcat-img-box">
                                             <picture>
-                                                <img src="https://www.emythmaker.com/project/Template/NewsProtal/dainikbandarban/Demo1/media/imgAll/bg/jd4.gif"
-                                                    alt="" title="" style="width: 120px; height: 85px;">
+                                                <img src="./Images/jd4.gif"
+                                                    alt="jd4" title="jd4" style="height: 85px;" class="img-fluid img100">
                                             </picture>
                                         </div>
 
@@ -1073,7 +1091,7 @@
 
     </section>
     <!-- nogor jure section -->
-    <section class="container mt-2">
+    <section class="container mt-3">
         <div class="line-break-5 ">
             <div class="dheadtitle">
                 <a href="#">
@@ -1083,14 +1101,18 @@
             </div>
         </div>
         <div class="lead-card ">
-            <div class="row g-1">
+            <div class="row">
                 <div class="col-md-3 d-flex">
                     <div class=" card-1 shadow-sm p-2">
-                        <div class="card demo1-card" style="width: 18rem;">
-                            <img src="https://www.emythmaker.com/project/Template/NewsProtal/dainikbandarban/Demo1/media/imgAll/bg/nj1.jpg"
-                                class="demo1-image  w-100 h-auto" alt="demo1">
+                        <div class="card demo1-card">
+                            <div class="img-box">
+                                <picture>
+                                    <img src="./Images/nj1.jpg"
+                                class="img-fluid img100" alt="demo1">
+                                </picture>
+                            </div>
                             <div>
-                                <h3 class="card-text mt-3" style="font-size: 20px;">
+                                <h3 class="card-text mt-3">
                                     <b>গাজীপুর সিটি নির্বাচন : মেয়র প্রার্থীর সর্বোচ্চ ব্যয় সাড়ে ৩১ লাখ টাকা নির্ধারণ
                                     </b>
                                 </h3>
@@ -1102,11 +1124,16 @@
                 </div>
                 <div class="col-md-3 d-flex">
                     <div class=" card-1 shadow-sm p-2">
-                        <div class="card demo1-card" style="width: 18rem;">
-                            <img src="https://www.emythmaker.com/project/Template/NewsProtal/dainikbandarban/Demo1/media/imgAll/bg/nj2.jpg"
-                                class="demo1-image  w-100 h-auto" alt="demo1">
+                        <div class="card demo1-card">
+                            <div class="img-box">
+                                <picture>
+                                    <img src="./Images/nj2.jpg"
+                                    class="img-fluid img100" alt="demo1">
+                                </picture>
+                            </div>
+                          
                             <div>
-                                <h3 class="card-text mt-3" style="font-size: 20px;">
+                                <h3 class="card-text mt-3" >
                                     <b>ভয়াবহ অগ্নিকাণ্ডে হুঁশ ফিরল রাজউকের
                                     </b>
                                 </h3>
@@ -1118,11 +1145,16 @@
                 </div>
                 <div class="col-md-3 d-flex">
                     <div class=" card-1 shadow-sm p-2">
-                        <div class="card demo1-card" style="width: 18rem;">
-                            <img src="https://www.emythmaker.com/project/Template/NewsProtal/dainikbandarban/Demo1/media/imgAll/bg/nj3.jpg"
-                                class="demo1-image  w-100 h-auto" alt="demo1">
+                        <div class="card demo1-card">
+                       <div class="img-box">
+                        <picture>
+                            <img src="./Images/nj3.jpg"
+                            class="img-fluid img100" alt="demo1">
+                        </picture>
+
+                       </div>
                             <div>
-                                <h3 class="card-text mt-3" style="font-size: 20px;">
+                                <h3 class="card-text mt-3">
                                     <b>পহেলা বৈশাখ উপলক্ষে হিলিতে বিজিবি-বিএসএফ শুভেচ্ছা বিনিময়।
                                     </b>
                                 </h3>
@@ -1134,11 +1166,15 @@
                 </div>
                 <div class="col-md-3 d-flex">
                     <div class=" card-1 shadow-sm p-2">
-                        <div class="card demo1-card" style="width: 18rem;">
-                            <img src="https://www.emythmaker.com/project/Template/NewsProtal/dainikbandarban/Demo1/media/imgAll/bg/raj1.jpg"
-                                class="demo1-image  w-100 h-auto" alt="demo1">
+                        <div class="card demo1-card" >
+                            <div class="img-box">
+                                <picture>
+                                    <img src="./Images/raj1.jpg"
+                                class="img-fluid img100" alt="demo1">
+                            </picture>
+                            </div>
                             <div>
-                                <h3 class="card-text mt-3" style="font-size: 20px;">
+                                <h3 class="card-text mt-3" >
                                     <b>আ.লীগ ক্ষমতাকে জনসেবার সুযোগ হিসেবে দেখে: প্রধানমন্ত্রী
                                     </b>
                                 </h3>
@@ -1154,7 +1190,7 @@
 
     </section>
     <!-- jatiyo section -->
-    <section class="sports-area mt-2 container">
+    <section class="sports-area  container mt-3">
         <div class="row ">
             <div class="col-md-6 py-1">
                 <div class="jatio-area">
@@ -1494,7 +1530,7 @@
     </section>
 
     <!-- Law section -->
-    <section class="law-section mt-2 container">
+    <section class="law-section  container mt-3">
         <div class="row">
             <!-- ain srinkhola area -->
             <div class="col-md-4">
@@ -1833,7 +1869,7 @@
 
     </section>
     <!-- District section -->
-    <section class="container district-section mt-2">
+    <section class="container district-section mt-3">
         <div class="district-area">
             <div class="row">
                 <div class="col-md-3 border_right">
@@ -1841,7 +1877,7 @@
                     <div class="sadar">
                         <div class="border_bottom-2">
                             <div class="Districtheadtitle">
-                                <a href="">
+                                <a href="#">
 
                                     <h2>বান্দরবান সদর</h2>
 
@@ -1853,12 +1889,12 @@
                         <div>
                             <a href="#">
                                 <picture>
-                                    <img src="https://www.emythmaker.com/project/Template/NewsProtal/dainikbandarban/Demo1/media/imgAll/bg/bb1.jpg"
-                                        alt="" class="img-fluid w-100">
+                                    <img src="./Images/bb1.jpg"
+                                        alt="" class="img-fluid img100">
                                 </picture>
                             </a>
                         </div>
-                        <div class="jatio-sub-menu-head mt-3" style="min-height: 52px;">
+                        <div class="jatio-sub-menu-head mt-3">
                             <h3>কৃষ্ণচূড়ায় ছেয়ে আছে সড়কের দু`পাশ
 
                             </h3>
@@ -1905,12 +1941,12 @@
                         <div>
                             <a href="#">
                                 <picture>
-                                    <img src="https://www.emythmaker.com/project/Template/NewsProtal/dainikbandarban/Demo1/media/imgAll/bg/ak1.jpg"
-                                        alt="" class="img-fluid w-100">
+                                    <img src="./Images/ak1.jpg"
+                                        alt="" class="img-fluid img100">
                                 </picture>
                             </a>
                         </div>
-                        <div class="jatio-sub-menu-head mt-3" style="min-height: 52px;">
+                        <div class="jatio-sub-menu-head mt-3">
                             <h3>আলীকদমে ২৮ রোহিঙ্গা নাগরিক আটক
                             </h3>
                         </div>
@@ -1955,8 +1991,8 @@
                         <div>
                             <a href="#">
                                 <picture>
-                                    <img src="https://www.emythmaker.com/project/Template/NewsProtal/dainikbandarban/Demo1/media/imgAll/bg/nk1.jpg"
-                                        alt="" class="img-fluid w-100">
+                                    <img src="./Images/nk1.jpg"
+                                        alt="" class="img-fluid img100">
                                 </picture>
                             </a>
                         </div>
@@ -2008,12 +2044,12 @@
                         <div>
                             <a href="#">
                                 <picture>
-                                    <img src="https://www.emythmaker.com/project/Template/NewsProtal/dainikbandarban/Demo1/media/imgAll/bg/rr1.jpg"
-                                        alt="" class="img-fluid w-100">
+                                    <img src="./Images/rr1.jpg"
+                                        alt="" class="img-fluid img100">
                                 </picture>
                             </a>
                         </div>
-                        <div class="jatio-sub-menu-head mt-3" style="min-height: 52px;">
+                        <div class="jatio-sub-menu-head mt-3">
                             <h3>রোয়াংছড়িতে বঙ্গবন্ধুর জুলিও কুরি শান্তি পদক প্রাপ্তির ৫০ বছর পূর্তি উদযাপন
 
 
@@ -2050,7 +2086,7 @@
 
 
     <!-- Photography section -->
-    <section class="photo_gallary mt-4">
+    <section class="photo_gallary mt-3">
         <div class="container">
             <!-- heading -->
             <div class="line-break-5 ">
@@ -2142,12 +2178,12 @@
     </section>
 
     <!-- health religion section -->
-    <section class="health-section mt-4 container">
+    <section class="health-section container mt-3">
         <div class="row">
             <!-- health area -->
-            <div class="col-md-4">
+            <div class="col-md-4 ">
                 <!-- heading 1 -->
-                <div class="line-break-5">
+                <div class="line-break-5 ">
                     <div class="dheadtitle  ">
                         <a href="">
                             <span></span>
@@ -2157,75 +2193,77 @@
 
                 </div>
                 <!-- body1 -->
-                <div>
+                <div class="img-box">
                     <a href="#">
                         <picture>
                             <img src="https://www.emythmaker.com/project/Template/NewsProtal/dainikbandarban/Demo1/media/imgAll/bg/hl1.jpg"
-                                alt="" class="img-fluid w-100">
+                                alt="" class="img-fluid img100">
                         </picture>
                     </a>
                 </div>
-                <div class="jatio-sub-menu-head mt-3" style="min-height: 52px;">
+                <div class="jatio-sub-menu-head mt-3">
                     <h3>কিছু চিকিৎসক শুধু টাকা কামাতেই ব্যস্ত: প্রধানমন্ত্রী
 
                     </h3>
                 </div>
                 <!-- sub head 1 -->
-                <div class="sub-head-list">
-                    <div class="row gx-3">
-                        <div class="col-md-5 col-5">
-                            <div>
-                                <a href="#">
-                                    <picture>
-                                        <img src="https://www.emythmaker.com/project/Template/NewsProtal/dainikbandarban/Demo1/media/imgAll/bg/hl2.jpg"
-                                            alt="" class="img-fluid w-100">
-                                    </picture>
-                                </a>
+                <div class="sub-list">
+                    <div class="sub-head-list">
+                        <div class="row gx-3">
+                            <div class="col-md-5 col-5">
+                                <div>
+                                    <a href="#">
+                                        <picture>
+                                            <img src="https://www.emythmaker.com/project/Template/NewsProtal/dainikbandarban/Demo1/media/imgAll/bg/hl2.jpg"
+                                                alt="" class="img-fluid img100">
+                                        </picture>
+                                    </a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-md-7 col-7">
-                            <div class="list-title">
-                                <h3 class="Title">বাংলাদেশ হৃদরোগের চিকিৎসায় স্বাবলম্বী: প্রধানমন্ত্রী</h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="sub-head-list">
-                    <div class="row gx-3">
-                        <div class="col-md-5 col-5">
-
-                            <div>
-                                <a href="#">
-                                    <picture>
-                                        <img src="https://www.emythmaker.com/project/Template/NewsProtal/dainikbandarban/Demo1/media/imgAll/bg/hl3.gif"
-                                            alt="" class="img-fluid w-100">
-                                    </picture>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-7 col-7">
-                            <div class="list-title">
-                                <h3 class="Title">উপজেলা পর্যায়ের অগ্নিদগ্ধ রোগীরা চিকিৎসা পাবে : শেখ হাসিনা</h3>
+                            <div class="col-md-7 col-7">
+                                <div class="list-title">
+                                    <h3 class="Title">বাংলাদেশ হৃদরোগের চিকিৎসায় স্বাবলম্বী: প্রধানমন্ত্রী</h3>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="sub-head-list">
-                    <div class="row gx-3">
-                        <div class="col-md-5 col-5">
-
-                            <div>
-                                <a href="#">
-                                    <picture>
-                                        <img src="https://www.emythmaker.com/project/Template/NewsProtal/dainikbandarban/Demo1/media/imgAll/bg/hl4.jpg"
-                                            alt="" class="img-fluid w-100">
-                                    </picture>
-                                </a>
+                    <div class="sub-head-list ">
+                        <div class="row gx-3">
+                            <div class="col-md-5 col-5">
+    
+                                <div>
+                                    <a href="#">
+                                        <picture>
+                                            <img src="https://www.emythmaker.com/project/Template/NewsProtal/dainikbandarban/Demo1/media/imgAll/bg/hl3.gif"
+                                                alt="" class="img-fluid img100">
+                                        </picture>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-7 col-7">
+                                <div class="list-title">
+                                    <h3 class="Title">উপজেলা পর্যায়ের অগ্নিদগ্ধ রোগীরা চিকিৎসা পাবে : শেখ হাসিনা</h3>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-md-7 col-7">
-                            <div class="list-title">
-                                <h3 class="Title">ওমিক্রন মোকাবিলায় নির্দেশনা মেনে চলার আহ্বান প্রধানমন্ত্রীর</h3>
+                    </div>
+                    <div class="sub-head-list">
+                        <div class="row gx-3">
+                            <div class="col-md-5 col-5">
+    
+                                <div>
+                                    <a href="#">
+                                        <picture>
+                                            <img src="https://www.emythmaker.com/project/Template/NewsProtal/dainikbandarban/Demo1/media/imgAll/bg/hl4.jpg"
+                                                alt="" class="img-fluid img100">
+                                        </picture>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-7 col-7">
+                                <div class="list-title">
+                                    <h3 class="Title">ওমিক্রন মোকাবিলায় নির্দেশনা মেনে চলার আহ্বান প্রধানমন্ত্রীর</h3>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -2236,7 +2274,7 @@
                 <!-- heading 2 -->
                 <div class="line-break-5">
                     <div class="dheadtitle ">
-                        <a href="">
+                        <a href="#">
                             <span></span>
                             <h2>ধর্ম</h2>
 
@@ -2245,77 +2283,79 @@
 
                 </div>
                 <!-- body1 -->
-                <div>
+                <div class="img-box" >
                     <a href="#">
                         <picture>
                             <img src="https://www.emythmaker.com/project/Template/NewsProtal/dainikbandarban/Demo1/media/imgAll/bg/rl1.jpg"
-                                alt="" class="img-fluid w-100">
+                                alt="" class="img-fluid img100">
                         </picture>
                     </a>
                 </div>
-                <div class="jatio-sub-menu-head mt-3" style="min-height: 52px;">
+                <div class="jatio-sub-menu-head mt-3">
                     <h3>রহমত মাগফিরাত আর নাজাতের রমজান
 
 
                     </h3>
                 </div>
                 <!-- sub head 2 -->
-                <div class="sub-head-list">
-                    <div class="row gx-3">
-                        <div class="col-md-5 col-5">
-
-                            <div>
-                                <a href="#">
-                                    <picture>
-                                        <img src="https://www.emythmaker.com/project/Template/NewsProtal/dainikbandarban/Demo1/media/imgAll/bg/rl2.jpg"
-                                            alt="" class=" img-fluid w-100">
-                                    </picture>
-                                </a>
+                <div class="sub-list">
+                    <div class="sub-head-list list2">
+                        <div class="row gx-3">
+                            <div class="col-md-5 col-5">
+    
+                                <div>
+                                    <a href="#">
+                                        <picture>
+                                            <img src="https://www.emythmaker.com/project/Template/NewsProtal/dainikbandarban/Demo1/media/imgAll/bg/rl2.jpg"
+                                                alt="" class=" img-fluid img100">
+                                        </picture>
+                                    </a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-md-7 col-7">
-                            <div class="list-title">
-                                <h3 class="Title"> রোজার নিয়ত কখন ও কীভাবে করতে হয়</h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="sub-head-list">
-                    <div class="row gx-3">
-                        <div class="col-md-5 col-5">
-
-                            <div>
-                                <a href="#">
-                                    <picture>
-                                        <img src="https://www.emythmaker.com/project/Template/NewsProtal/dainikbandarban/Demo1/media/imgAll/bg/rl3.jpg"
-                                            alt="" class="img-fluid w-100">
-                                    </picture>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-7 col-7">
-                            <div class="list-title">
-                                <h3 class="Title"> স্বাগতম মাহে রমজান</h3>
+                            <div class="col-md-7 col-7">
+                                <div class="list-title">
+                                    <h3 class="Title"> রোজার নিয়ত কখন ও কীভাবে করতে হয়</h3>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="sub-head-list">
-                    <div class="row gx-3">
-                        <div class="col-md-5 col-5">
-
-                            <div>
-                                <a href="#">
-                                    <picture>
-                                        <img src="https://www.emythmaker.com/project/Template/NewsProtal/dainikbandarban/Demo1/media/imgAll/bg/rl4.jpg"
-                                            alt="" class="img-fluid w-100">
-                                    </picture>
-                                </a>
+                    <div class="sub-head-list">
+                        <div class="row gx-3">
+                            <div class="col-md-5 col-5">
+    
+                                <div>
+                                    <a href="#">
+                                        <picture>
+                                            <img src="https://www.emythmaker.com/project/Template/NewsProtal/dainikbandarban/Demo1/media/imgAll/bg/rl3.jpg"
+                                                alt="" class="img-fluid img100">
+                                        </picture>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-7 col-7">
+                                <div class="list-title">
+                                    <h3 class="Title"> স্বাগতম মাহে রমজান</h3>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-md-7 col-7">
-                            <div class="list-title">
-                                <h3 class="Title"> পবিত্র শবেবরাত ৭ মার্চ</h3>
+                    </div>
+                    <div class="sub-head-list">
+                        <div class="row gx-3">
+                            <div class="col-md-5 col-5">
+    
+                                <div>
+                                    <a href="#">
+                                        <picture>
+                                            <img src="https://www.emythmaker.com/project/Template/NewsProtal/dainikbandarban/Demo1/media/imgAll/bg/rl4.jpg"
+                                                alt="" class="img-fluid img100">
+                                        </picture>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-7 col-7">
+                                <div class="list-title">
+                                    <h3 class="Title"> পবিত্র শবেবরাত ৭ মার্চ</h3>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -2336,15 +2376,15 @@
 
                 </div>
                 <!-- body1 -->
-                <div>
+                <div class="img-box">
                     <a href="#">
                         <picture>
                             <img src="https://www.emythmaker.com/project/Template/NewsProtal/dainikbandarban/Demo1/media/imgAll/bg/bp1.jpg"
-                                alt="" class="img-fluid w-100">
+                                alt="" class="img-fluid img100">
                         </picture>
                     </a>
                 </div>
-                <div class="jatio-sub-menu-head mt-3" style="min-height: 52px;">
+                <div class="jatio-sub-menu-head mt-3" >
                     <h3>বিজ্ঞান শিক্ষা সহজ করতে প্রচলিত শব্দ ব্যবহার করুন:প্রধানমন্ত্রী
                     </h3>
                 </div>
@@ -2353,7 +2393,7 @@
                     <div class="row gx-3">
                         <div class="col-md-5 col-5">
 
-                            <div>
+                            <div class="img-box">
                                 <a href="#">
                                     <picture>
                                         <img src="https://www.emythmaker.com/project/Template/NewsProtal/dainikbandarban/Demo1/media/imgAll/bg/bp2.jpg"
@@ -2373,11 +2413,11 @@
                     <div class="row gx-3">
                         <div class="col-md-5 col-5">
 
-                            <div>
+                            <div class="img-box">
                                 <a href="#">
                                     <picture>
                                         <img src="https://www.emythmaker.com/project/Template/NewsProtal/dainikbandarban/Demo1/media/imgAll/bg/bp3.jpg"
-                                            alt="" class="img-fluid w-100">
+                                            alt="" class="img-fluid img100">
                                     </picture>
                                 </a>
                             </div>
@@ -2393,11 +2433,11 @@
                     <div class="row gx-3">
                         <div class="col-md-5 col-5">
 
-                            <div>
+                            <div class="img-box" >
                                 <a href="#">
                                     <picture>
                                         <img src="https://www.emythmaker.com/project/Template/NewsProtal/dainikbandarban/Demo1/media/imgAll/bg/bp4.jpg"
-                                            alt="" class="img-fluid w-100">
+                                            alt="" class="img-fluid img100">
                                     </picture>
                                 </a>
                             </div>
@@ -2421,7 +2461,7 @@
     </section>
 
     <!-- video gallary section -->
-    <section class="photo_gallary mt-4">
+    <section class="photo_gallary">
         <div class="container">
             <!-- heading -->
             <div class="line-break-5 ">
@@ -2441,7 +2481,7 @@
                             <a href="#">
                                 <div class="photo_box">
                                     <picture>
-                                        <img src="https://www.emythmaker.com/project/Template/NewsProtal/dainikbandarban/Demo1/media/imgAll/bg/vd1.jpg"
+                                        <img src="./Images/vd1.jpg"
                                             alt="" class="img-fluid img100">
                                     </picture>
                                     <span class="video_icon">
@@ -2450,7 +2490,7 @@
 
                             </a>
                         </div>
-                        <div class=" jatio-sub-menu-head mt-3" style="min-height: 52px;">
+                        <div class=" jatio-sub-menu-head mt-3">
                             <h3>বাংলাদেশের অগ্রযাত্রায় স্বীকৃতি
                             </h3>
                         </div>
@@ -2462,7 +2502,7 @@
                             <a href="#">
                                 <div class="photo_box">
                                     <picture>
-                                        <img src="https://www.emythmaker.com/project/Template/NewsProtal/dainikbandarban/Demo1/media/imgAll/bg/vd2.jpg"
+                                        <img src="./Images/vd2.jpg"
                                             alt="" class="img-fluid img100">
                                     </picture>
                                     <span class="video_icon">
@@ -2471,7 +2511,7 @@
 
                             </a>
                         </div>
-                        <div class=" jatio-sub-menu-head mt-3" style="min-height: 52px;">
+                        <div class=" jatio-sub-menu-head mt-3">
                             <h3>নীলাচল, বান্দরবান
 
 
@@ -2485,7 +2525,7 @@
                             <a href="#">
                                 <div class="photo_box img100">
                                     <picture>
-                                        <img src="https://www.emythmaker.com/project/Template/NewsProtal/dainikbandarban/Demo1/media/imgAll/bg/vd3.jpg"
+                                        <img src="./Images/vd3.jpg"
                                             alt="" class="img-fluid img100 ">
                                     </picture>
                                     <span class="video_icon">
@@ -2515,30 +2555,30 @@
 
     </section>
     <!-- footer -->
-    <section class="footer-banner mt-4">
+    <section class="footer-banner">
         <div class="container">
-            <div class="row">
-                <div class="col-1-image col-lg-3 col-md-6 col-6 d-flex">
-                    <img src="./Images/logo.svg" alt="logo">
+            <div class="row g-4">
+                <div class=" col-lg-3 col-md-6 col-6 d-flex">
+                   <a href="#"> <img src="./Images/logo.svg" alt="logo" class="img-fluid img100"></a>
                 </div>
 
-                <div class="col-2-address col-md-3 d-flex justify-content-start align-items-center border-right-inner">
+                <div class="col-md-3 d-flex justify-content-start align-items-center border-right-inner">
                     <address class="address">
-                        <p><b>সম্পাদক ও প্রকাশক : আজিজুল করীম</b></p>
-                        <p><b>ঠিকানা : বান্দরবান সদর</b></p>
+                        <p>সম্পাদক ও প্রকাশক : আজিজুল করীম</p>
+                        <p>ঠিকানা : বান্দরবান সদর</p>
 
                     </address>
                 </div>
-                <div class="col-2-address col-md-3 d-flex justify-content-start align-items-center border-right-inner">
+                <div class="col-md-4 d-flex justify-content-start align-items-center border-right-inner">
                     <div class="contact">
-                        <p><a href="tel:+৮৮০১৭৬৮১৬৪৫৫"><b>মোবাইল : +৮৮০১৭৬৮১৬৪৫৫</b></a></p>
-                        <p><a href="mailto:news@dainikbandarban.com" target="_blank"><b>ই-মেইল :
-                                    news@dainikbandarban.com</b></a></p>
+                        <p><a href="tel:+৮৮০১৭৬৮১৬৪৫৫">মোবাইল : +৮৮০১৭৬৮১৬৪৫৫</a></p>
+                        <p><a href="mailto:news@dainikbandarban.com" target="_blank">ই-মেইল :
+                                    news@dainikbandarban.com</a></p>
 
                     </div>
                 </div>
                 <div class="col-md-2 d-flex align-items-center justify-content-end pe-0">
-                    <div class="links-social mb-5">
+                    <div class="links-social">
                         <a href="#"><i class="fa-brands fa-facebook-f fb icon"></i></a>
                         <a href="#"><i class="fa-brands fa-instagram instra icon"></i></a>
                         <a href="#"><i class="fa-brands fa-twitter twite icon"></i></a>
@@ -2550,16 +2590,78 @@
             </div>
         </div>
     </section>
-    <section>
-        <footer class='bg-dark text-white text-center p-3'>
-            © ২০২৩ | দৈনিক বান্দরবান কর্তৃক সর্বসত্ব ® সংরক্ষিত | উন্নয়নে ইমিথমেকারস.কম
+    <!-- footer -->
+    <section class="dfooter">
+        <footer class='bg-dark text-white '>
+            <div class="col-sm-12 text-center">
+                <p> © ২০২৩ | দৈনিক বান্দরবান কর্তৃক সর্বসত্ব ® সংরক্ষিত | উন্নয়নে ইমিথমেকারস.কম</p>
+            </div>
+           
         </footer>
     </section>
+    <!-- shironam -->
+    <section>
+        <div class="container-fluid">
+            <div class="scrollsection">
+                <div class="scrollpart">
+                    <div class="scrollheading d-flex justify-content-center ">
+                        <p>শীর্ষ সংবাদ:</p>
+                    </div>
+                    <div class="scrolllist">
+                        <marquee onmouseover="this.stop()" onmouseout="this.start()">
+                     <a href="">
+                         <span>
+                            <div class="circle-icon"></div>
+                            বিশ্বজুড়ে করোনায় মৃত্যু ৪৯ লাখ ছাড়ালো
+                         </span>
+                     </a>
+                     <a href="">
+                        <span>
+                           <div class="circle-icon"></div>
+                           অসাম্প্রদায়িক চেতনায় বাংলাদেশ গড়তে চাই ॥ প্রধানমন্ত্রী
+                        </span>
+                    </a>
+                    <a href="">
+                        <span>
+                           <div class="circle-icon"></div>
+                           বাংলাদেশকে ১৪১ রানের লক্ষ্য ছুড়ে দিলো স্কটল্যান্ড
+                        </span>
+                    </a>
+                    <a href="">
+                        <span>
+                           <div class="circle-icon"></div>
+                           মুহিবুল্লাহ হত্যাকান্ডে জড়িত সন্দেহে আরসা ক্যাডার গ্রেফতার
+                        </span>
+                    </a>
+                    <a href="">
+                        <span>
+                           <div class="circle-icon"></div>
+                         
+                           সামাজিক মাধ্যমে গুজব রটনাকারীদের বিরুদ্ধে ব্যবস্থা নিচ্ছে পুলিশ
+                           ভারতের দুই রাজ্যে ভারী বৃষ্টির প্রভাবে ৮৫ জনের প্রাণহানি
+                        </span>
+                    </a>
+                    <a href="">
+                        <span>
+                           <div class="circle-icon"></div>
+                           ভারতের দুই রাজ্যে ভারী বৃষ্টির প্রভাবে ৮৫ জনের প্রাণহানি
+                        </span>
+                    </a>
+                        </marquee>
+                    </div>
 
+                </div>
 
+            </div>
+
+        </div>
+    </section>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
         </script>
+    <script type="text/javascript" src="./script.js"></script>
 </body>
 
 </html>
